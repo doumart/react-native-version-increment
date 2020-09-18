@@ -83,7 +83,7 @@ const newVersionParts = {
   PATCH: argv["patch"] ? parseInt(versionParts.PATCH, 10) + 1 : (argv["minor"] || argv["major"] ? 0 : versionParts.PATCH),
 }
 
-const NEWVERSION = `${newVersionParts.MAJOR}.${newVersionParts.MINOR}.${newVersionParts.PATCH}`
+const NEWVERSION = argv["version"] || `${newVersionParts.MAJOR}.${newVersionParts.MINOR}.${newVersionParts.PATCH}`
 
 console.log(
   "\n",
