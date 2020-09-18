@@ -16,3 +16,7 @@ Will result in the increment of the patch number of the version 0.0.1 -> 0.0.2
 - **`--major`** _(flag)_ - Increment major and reset minor and patch.
 - **`--version`** _(String)_ - Specify a version and ignore flags.
 - **`--help`** _(flag)_ - Shows the help.
+
+### IMPORTANT
+
+This script will not work if your project doesn't have at least 1 tag
