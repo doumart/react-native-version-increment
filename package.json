@@ -1,6 +1,6 @@
 {
   "name": "react-native-version-increment",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Script to increment version of package.json, IOS and Android",
   "main": "src/increment.js",
   "bin": "src/increment.js",

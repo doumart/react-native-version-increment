@@ -1,5 +1,6 @@
+#!/usr/bin/env node
+
 const { execSync } = require("child_process");
-const { userInfo } = require("os");
 const { exit } = require("process");
 const incrementAndroid = require("./android.js");
 const incrementIOS = require("./ios.js");
