@@ -1,0 +1,21 @@
+{
+  "name": "react-native-version-increment",
+  "version": "0.0.1",
+  "description": "Script to increment version of package.json, IOS and Android",
+  "main": "src/increment.js",
+  "bin": "src/increment.js",
+  "author": "Dominique Richard",
+  "keywords": [
+    "version",
+    "react-native",
+    "native"
+  ],
+  "bugs": {
+    "url": "https://github.com/doumart/react-native-version-increment/issues"
+  },
+  "homepage": "https://github.com/doumart/react-native-version-increment#readme",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
+}
